@@ -1,0 +1,80 @@
+body
+{
+   margin-left: 150px;
+   
+}
+.bl
+{
+    border-left: 4px solid red;
+    text-indent: 25px;
+    
+}
+h3
+{   
+    font-family: sans-serif;
+    font-size:30px;
+    font-weight: lighter;
+    
+}
+#hi
+{ 
+    font-family: sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+    opacity: 0.7;
+    line-height: 20px;
+}
+.vt
+{
+    border-bottom: 1px lightgrey solid;
+    font-size: 20px;
+  
+    padding-bottom: 10px;
+}
+.vs{
+    border-bottom: 1px white solid;
+    font-size: 20px;
+    opacity: 0.8;
+}
+#p1
+{
+       width: 200px;
+    height: 40px;
+    text-indent:20px;
+    font-size: 15px;
+}
+
+select,#p2,#pp,#pp1,#pp2
+{
+    width: 400px;
+    height: 50px;
+    text-indent:20px;
+    font-size:20px;
+}
+@media screen and (max-width:600px){
+    select,#p2,#pp,#pp1,#pp2
+{
+    width: 275px;
+}
+
+}
+#pp6
+{
+    width: 600px;
+    height: 200px;
+    text-indent:20px;
+}
+.button
+{
+     width: 200px;
+     height: 50px;
+     font-size: 20px;
+     opacity: 0.8;
+     color: white;
+     background-color: rgb(37, 43, 63);
+}
+.button:hover
+{
+    background-color: red;
+}
+

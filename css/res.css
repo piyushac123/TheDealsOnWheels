@@ -1,0 +1,437 @@
+body{
+    overflow-x: hidden;
+}
+/* Prelaoder */
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff url("../img/preloader.svg") no-repeat center center;
+}
+.parallax{
+    background-image: url(../images/images.jpeg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagesize{
+    height:400px;
+    width:400px;
+    margin-left:100px;
+    margin-top:25px;
+}
+@media screen and (max-width:600px)
+{
+.image1{
+    height: 80px;
+    width: 300px;
+}
+    .menu1{
+    z-index: 0;
+    position: inherit;
+    line-height: normal;
+        top:auto;
+    }
+    .imagesize{
+    height:350px;
+    width:290px;
+    margin-left:0px;
+    margin-top:25px;
+}
+    
+}
+.active1{
+	background-color: #E53C3C;
+}
+.li1:hover{
+	background-color: #E53C3C;
+}
+.li1:active{
+	background-color: #E53C3C;
+}
+.button
+{
+     width: 200px;
+     height: 50px;
+     font-size: 20px;
+     opacity: 0.8;
+     color: white;
+     background-color: red;
+    border: 2px solid red;
+}
+.button:hover
+{
+    background-color: red;
+}
+.imageback{
+    background-color:black;
+    margin-top:-20px;
+     margin-bottom: auto;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     height:300px;
+     background-position: center;
+     background-attachment: fixed;
+}
+.imghead{
+    font-size: 38px;
+    background-color: white;
+    opacity: inherit;
+    width:auto;
+    max-width: 600px;
+    margin: auto;
+    color: red;
+    text-align:center;
+}
+
+.bot{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 100px;
+	color:white;
+}
+.pqr{
+    color: red;
+}
+.pqr:hover{
+    color:blue;
+    text-decoration: none;
+}
+.image{
+     background:url('../images/14.jpg');
+    margin-top:-20px;
+     margin-bottom: auto;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     height:300px;
+     background-position: center;
+     background-attachment: fixed;     
+} 
+.parallax1{
+    background-image: url(http://thedealsonwheels.com/wp-content/uploads/2017/03/DOW-HydroGraphic-Printing.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url(http://thedealsonwheels.com/wp-content/uploads/2017/03/DOW-HydroPrinting-Cycles.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    background-image: url(http://thedealsonwheels.com/wp-content/themes/carshire/images/background/page-banner-1.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 500px;
+}
+.parallax4{
+    background-image: url(http://thedealsonwheels.com/wp-content/uploads/2017/03/chrome-paint-possibilities-11.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax5{
+    background-image: url(http://thedealsonwheels.com/wp-content/uploads/2017/03/DOW-Car-Detailing.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax6{
+    background-image: url(http://thedealsonwheels.com/wp-content/uploads/2017/03/Scratch-Repair.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax7{
+    background-image: url(http://thedealsonwheels.com/wp-content/uploads/2017/03/Oil-Change-Service.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    margin-top: 0px;
+}
+
+.heading{
+    text-indent: 100px;
+}
+.menu{
+    background-color:#403B4A;
+    color:white;
+    line-height: 60px;
+    font-size: 15px;
+    
+}
+
+.menu11{
+    background-color:#403B4A;
+    color:white;
+    line-height: 60px;
+    font-size: 15px;
+}
+.menu1{
+    z-index: 100000;
+    position: sticky;
+    top: 0;
+}
+
+.menunew{
+    background-color:#403B4A;
+    color:white;
+    line-height: 60px;
+}
+
+.menup{
+    color:white;
+}
+.menup:hover{
+    color:white;
+    background-color: #403B4A;
+    text-decoration: none;
+}
+.active{
+    background-color:red;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 9px;
+    padding-right: 9px;
+    width:auto;
+    color:white;
+}
+.active:hover{
+     color:white;
+    text-decoration: none;   
+}
+
+
+.col-lg-3{
+    color:white;
+}
+
+#footer{
+    position:relative;
+    width:100%;
+    bottom: 0;
+    background: #303030;
+}
+
+ @media (max-width:1200px) and (min-width:0px)
+    {
+      #footer{
+        position:relative;
+        width:100%;
+        bottom: 0;
+        }
+        /*.navbar{
+            margin-top:0px;
+        }*/
+    }
+.list1{
+    list-style-type: none;
+}
+
+.abc{
+      padding: 10px;
+    line-height: 18px;
+  size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+cursor:pointer;
+}
+
+.abc:hover{
+color:white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+text-shadow:1px 1px black;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+border:1px solid #007bb5;
+  color: white;
+text-shadow:1px 1px black;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+    text-shadow:1px 1px black;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+    text-shadow:1px 1px black;
+}
+
+
+/*==================================================
+  $A11Y Dropdown
+  ==================================================*/
+
+/* Top level pav */
+.pav2 {
+	float: left;
+	margin: 20px 0;
+    line-height: 60px;
+}
+
+/* Dropdowns */
+.pav ul {
+	position: absolute;
+	/*top: 2.5em;*/
+	left: -9999px;
+	/*opacity: 0;*/
+	transition: 0.1s linear opacity;
+	min-width: 150px;
+    line-height: 60px;
+    
+}
+
+.pav li {
+	float: left;
+	position: relative;
+    background: #403B4A;
+    line-height: 60px;
+}
+
+/* Top level pav items */
+.pav li > a {
+	/*padding: 10px 15px;*/
+	text-decoration: none;
+     color:white;
+    line-height: 60px;
+}
+
+.pav1{
+    text-indent: 20px;
+	/*padding: 10px 15px;*/
+	text-decoration: none;
+     color:white;
+    line-height: 60px;
+}
+
+/* Top level hover state, preserve hover state when hovering dropdown  */
+/*.pav li > a:hover,
+.pav li > a:focus,
+.pav li:focus > a,
+.pav li:hover > a {
+	background-color: #403B4A;
+    color:white;
+	outline: 0;
+}*/
+
+.pav li:hover ul,
+.pav li:focus ul,
+ul.show-menu {
+	left: 0;
+	opacity: 0.99;
+    line-height: 60px;
+    
+}
+
+.pav ul li {
+	float: none;
+	position: static;
+    line-height: 60px;
+}
+
+.pav ul a{
+	float: none;
+	display: block;
+	font-size: 17px;
+	text-shadow: none;
+    line-height: 60px;
+	/*transition: 0.1s linear all;*/
+}
+
+.pav2 ul a:hover,
+.pav2 ul a:focus {
+	text-shadow: none;
+    line-height: 60px;
+}
+
+
+/*==================================================
+  $Helpers
+  ==================================================*/
+
+.list-reset {  
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    line-height: 60px;
+}
+
+.link1{
+    color:red;
+}
+.link1:hover{
+    color:red;
+    text-decoration: none;
+}
+
+.link2{
+    color:white;
+}
+.link2:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.list1{
+    list-style-type: none;
+    text-align:left;
+    font-size: 20px;
+}
+
+.text1{
+    color:black;
+}
+
+.text2{
+    color:white;
+    background-color: red;
+    border: 2px solid red;
+}
+.headtext{
+    text-indent:60px;
+    color:white;
+}
+.imagefoot{
+    height:350px;
+    width:auto; 
+    max-width:300px;
+}
+.headtexth{
+    color:white;
+}
