@@ -410,8 +410,8 @@ ul.show-menu {
 
 .list1{
     list-style-type: none;
-    text-align:left;
     font-size: 20px;
+    text-align: center
 }
 
 .text1{
@@ -424,9 +424,10 @@ ul.show-menu {
     border: 2px solid red;
 }
 .headtext{
-    text-indent:60px;
+    text-align: center;
     color:white;
 }
+
 .imagefoot{
     height:350px;
     width:auto; 
